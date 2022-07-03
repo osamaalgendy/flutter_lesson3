@@ -57,51 +57,54 @@ class FacebookApp extends StatelessWidget {
         backgroundColor: Colors.white,
         elevation: 20,
       ),
-      body: Container(
-        color: Colors.blueGrey,
-        height: 600,
-        width: double.infinity,
-        child: Column(children: [
-          Expanded(
-            flex: 1,
-            child: Container(
-              width: 100,
-              height: 100,
-              alignment: Alignment.center,
-              color: Colors.amber.shade200,
-              child: Text(
-                "c4a.shop",
-                style: TextStyle(fontSize: 19),
+      body: Padding(
+        padding: const EdgeInsets.only(top: 15),
+        child: Container(
+          color: Colors.blueGrey,
+          height: 600,
+          width: double.infinity,
+          child: Column(children: [
+            Expanded(
+              flex: 1,
+              child: Container(
+                width: 100,
+                height: 100,
+                alignment: Alignment.center,
+                color: Colors.amber.shade200,
+                child: Text(
+                  "c4a.shop",
+                  style: TextStyle(fontSize: 19),
+                ),
               ),
             ),
-          ),
-          Expanded(
-            flex: 1,
-            child: Container(
-              width: 100,
-              height: 100,
-              alignment: Alignment.center,
-              color: Colors.blue.shade300,
-              child: Text(
-                "c4a.shop",
-                style: TextStyle(fontSize: 19, color: Colors.white),
+            Expanded(
+              flex: 1,
+              child: Container(
+                width: 100,
+                height: 100,
+                alignment: Alignment.center,
+                color: Colors.blue.shade300,
+                child: Text(
+                  "c4a.shop",
+                  style: TextStyle(fontSize: 19, color: Colors.white),
+                ),
               ),
             ),
-          ),
-          Expanded(
-            flex: 1,
-            child: Container(
-              width: 100,
-              height: 100,
-              alignment: Alignment.center,
-              color: Colors.red.shade300,
-              child: Text(
-                "c4a.shop",
-                style: TextStyle(fontSize: 19, color: Colors.white),
+            Expanded(
+              flex: 1,
+              child: Container(
+                width: 100,
+                height: 100,
+                alignment: Alignment.center,
+                color: Colors.red.shade300,
+                child: Text(
+                  "c4a.shop",
+                  style: TextStyle(fontSize: 19, color: Colors.white),
+                ),
               ),
             ),
-          ),
-        ]),
+          ]),
+        ),
       ),
     );
   }
